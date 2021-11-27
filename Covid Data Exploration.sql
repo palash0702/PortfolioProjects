@@ -84,7 +84,7 @@ order by 2,3
 select *, (rolling_people_vaccinated/population) *100 as percent_pop_vaccinated from PercentPopulationVaccinated
 
 
------------Creating Views for future Visualization---------
+-----------Creating Views for further Visualization---------
 create view percent_population_vaccinated as
 select *, (rolling_people_vaccinated/population) *100 as percent_pop_vaccinated from PercentPopulationVaccinated
 
